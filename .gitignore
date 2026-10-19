@@ -1,0 +1,50 @@
+# Operating system and editors
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.idea/
+
+# JavaScript dependencies and generated output
+node_modules/
+.next/
+.expo/
+.vercel/
+.turbo/
+dist/
+build/
+out/
+coverage/
+playwright-report/
+test-results/
+*.tsbuildinfo
+
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+*.egg-info/
+
+# Local credentials and configuration
+.env
+.env.*
+!.env.example
+!.env.*.example
+*.pem
+*.key
+
+# Logs and local source captures
+*.log
+data/raw/*
+!data/raw/README.md
+
+# Local databases and exports
+*.sqlite
+*.sqlite3
+*.db
