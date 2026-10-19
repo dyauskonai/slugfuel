@@ -42,9 +42,21 @@ htmlcov/
 # Logs and local source captures
 *.log
 data/raw/*
-!data/raw/README.md
 
 # Local databases and exports
 *.sqlite
 *.sqlite3
 *.db
+
+# Additional web starter exclusions
+/apps/web/logs/
+/apps/web/dist-ssr/
+/apps/web/**/*.local
+/apps/web/.vscode/*
+!/apps/web/.vscode/extensions.json
+/apps/web/**/.idea
+/apps/web/**/*.suo
+/apps/web/**/*.ntvs*
+/apps/web/**/*.njsproj
+/apps/web/**/*.sln
+/apps/web/**/*.sw?
