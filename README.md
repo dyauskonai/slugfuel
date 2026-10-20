@@ -6,14 +6,6 @@
 
 Personalized nutrition planning for UC Santa Cruz dining.
 
-![Platform](https://img.shields.io/badge/platform-Web-292524?style=flat-square)
-![React](https://img.shields.io/badge/React-19-292524?style=flat-square)
-![TypeScript](https://img.shields.io/badge/TypeScript-292524?style=flat-square)
-![Vite](https://img.shields.io/badge/Vite-292524?style=flat-square)
-![Status](https://img.shields.io/badge/status-In_development-527A55?style=flat-square)
-
-[Overview](#overview) · [Planned features](#planned-features) · [Installation](#installation) · [Development](#development)
-
 </div>
 
 ## Overview
@@ -44,10 +36,7 @@ Nutrition calculations will use published serving sizes. Missing values will rem
 
 ## Installation
 
-### Prerequisites
-
 - **Node.js 22.12+** and **npm**.
-- **Git** to clone the repository, or download and extract its ZIP archive.
 
 ### Get the source
 
