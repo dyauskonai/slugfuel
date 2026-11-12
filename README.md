@@ -1,3 +1,9 @@
+> **Work-in-progress mobile branch:** Contains a new Python menu/AI-estimation backend (`server/app.py`) and a React Native/Expo Android scaffold with Kotlin local-storage module (`apps/mobile`). **The mobile interface (`App.tsx`) is not implemented yet, so the mobile app does not build or run.** Dependency installation was blocked by unavailable network access and an incomplete package cache. Native compilation and live backend integrations are unverified. Python syntax checks passed. The existing web starter is unchanged.
+>
+> Backend: export `SLUGFUEL_API_TOKEN` and optionally `OPENAI_API_KEY` / `OPENAI_MODEL`, then run `python3 server/app.py`. Configuration examples are in `.env.example`; environment files are not automatically loaded. The service binds to loopback on port 8000. Routes: `GET /health`, authenticated `GET /locations`, `GET /menu?location=40&date=YYYY-MM-DD`, and `POST /estimate` with `food` and `portion`. Authenticated requests use `Authorization: Bearer <your backend token>`. Never place the OpenAI key in a mobile bundle.
+>
+> Menu data is adapted from UCSC FoodPro HTML, with date validation. Calorie/protein values remain unknown until manually supplied or estimated; AI output is explicitly marked as an estimate. Android storage uses app-private SharedPreferences and requires a native development build, not Expo Go. The local HTTP service is for development; a public deployment still needs production hosting and per-user authentication/rate limits.
+
 <div align="center">
 
 # SlugFuel
